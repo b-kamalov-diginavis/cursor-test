@@ -5,14 +5,19 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Cursor test</title>
+        <link
+            rel="icon"
+            type="image/svg+xml"
+            href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16'><path d='M 2 2 8 14 14 8 Z'/></svg>"
+        />
+        <style>
+            html {
+                cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16'><path d='M 0 0 8 16 16 8 Z'/></svg>"),
+                    auto;
+                min-height: 100%;
+            }
+        </style>
     </head>
-    <style>
-        html {
-            cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16'><path d='M 0 0 8 16 16 8 Z'/></svg>"),
-                auto;
-            min-height: 100%;
-        }
-    </style>
     <body>
         <pre><code>&lt;style>
   html {
